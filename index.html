@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <title>Meeting</title>
+    <meta charset="utf-8" />
+    <meta id="meta" name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<body>
+    <script>
+        window.onload = () => {
+            function resize() {
+                let mql = window.matchMedia('(max-width: 600px)');
+                if (mql.matches) {
+                    console.log(document.getElementById("meta").content)
+
+                }
+            }
+            window.addEventListener('resize', resize)
+
+        }
+    </script>
+    <div class="container">
+        <div class="nav-decoration"></div>
+        <nav>
+            <img src="./img/Subtract.svg" alt="Company `s logo">
+            <span>metting</span>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Feature</a>
+                </li>
+                <li>
+                    <a href="">Pricing</a>
+                </li>
+                <li>
+                    <a href="">Solution</a>
+                </li>
+                <li>
+                    <a href="">Faq</a>
+                </li>
+            </ul>
+            <div class="user-navigation">
+                <button class="button-singIn">
+                    Sign in
+                </button>
+                <button>
+                    Download
+                </button>
+            </div>
+            <img class="button-mobile" src="./img/Group 73.svg">
+        </nav>
+        <div class="block-main">
+            <div class="block-main-wrapper">
+                <div class="block-main-info">
+                    <h1>The best video online meeting software.</h1>
+                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default</p>
+                    <a>Start for free</a>
+                </div>
+                <div class="block-main-images">
+                    <img src="./img/Group 900.svg" alt="a group of friends talking by video call">
+                </div>
+            </div>
+        </div>
+        <div class="block-partners">
+            <h2>Collaborate 2M+ startup
+                and international companies
+                ueses since 2018 </h2>
+            <div class="block-partners-stats">
+                <div>
+                    <h1>
+                        15k
+                    </h1>
+                    <div class="block-partners-hearts">
+                    </div>
+                    <p>Active Downloads</p>
+                </div>
+                <div>
+                    <h1>
+                        4.9
+                    </h1>
+                    <div class="block-partners-stars">
+                    </div>
+                    <p>2,938 Rating</p>
+                </div>
+            </div>
+        </div>
+        <div class="partners">
+            <img src="./img/airbnb.svg" alt="">
+            <img src="./img/Hubspot Logo.svg" alt="">
+            <img src="./img/Google Logo.svg" alt="">
+            <img src="./img/Microsoft Logo.svg" alt="">
+            <img src="./img/Walmart.svg" alt="" id="wallmart">
+            <img src="./img/FedEx Logo.svg" alt="" id="fedex">
+        </div>
+        <div class="block-features">
+            <h2>Our special features</h2>
+            <p id="main-feature">We are familiar with offline speed dating flow so we designed out online
+                platform considering all the requirements</p>
+            <div class="article-wrapper">
+                <article>
+                    <img src="./img/Vector (1).svg" alt="">
+                    <h3>Affordable Pricing</h3>
+                    <p>A dictionary of over 200 Latin words,with
+                        a handful of model sentence. structures, to generate Lorem Ipsum</p>
+                    <a>Learn more</a>
+                </article>
+                <article>
+                    <img src="./img/Vector (3).svg" alt="">
+                    <h3>Seamless Reliability</h3>
+                    <p>A dictionary of over 200 Latin words,with
+                        a handful of model sentence. structures, to generate Lorem Ipsum</p>
+                    <a>Learn more</a>
+                </article>
+                <article>
+                    <img src="./img/Vector (2).svg" alt="">
+                    <h3>Secure Collaboration</h3>
+                    <p>A dictionary of over 200 Latin words,with
+                        a handful of model sentence. structures, to generate Lorem Ipsum</p>
+                    <a>Learn more</a>
+                </article>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
