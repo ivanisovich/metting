@@ -261,7 +261,7 @@ nav .user-navigation {
     margin-left: auto;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 880px) {
     .button-mobile {
         display: none;
     }
@@ -461,7 +461,7 @@ nav .user-navigation {
     .block-main,
     .block-partners {
         max-width: 250px;
-        overflow: hidden;
+  
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -496,5 +496,40 @@ nav .user-navigation {
 
     nav li{
         font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    
+    .block-features{
+        padding-top: 30px;
+    }    
+
+    .article-wrapper{
+        flex-direction: column;
+        width: fit-content;
+        padding-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .block-partners {
+        width: fit-content;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .article-wrapper article{
+        padding-bottom: 20px;
+        margin-right: 0px;
+    }
+    .article-wrapper img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .partners img{
+        width: 7vw;
     }
 }
